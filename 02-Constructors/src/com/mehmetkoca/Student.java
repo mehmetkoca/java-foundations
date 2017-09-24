@@ -18,7 +18,7 @@ public class Student {
         this.studentNo = studentNo;
         this.department = department;
     }
-
+    //getters
     public String getName() {
         return name;
     }
