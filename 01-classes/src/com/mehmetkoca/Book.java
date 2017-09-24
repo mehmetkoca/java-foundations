@@ -7,10 +7,12 @@ public class Book {
     private String ISBN;
     private String imprint;
 
+    //getter
     public String getName() {
         return this.name;
     }
 
+    //setter
     public void setName(String name) {
         String validName = name.toLowerCase();
         if (validName.equals("the hitchhiker's guide to the galaxy") || validName.equals("sapiens a brief history of humankind")){
